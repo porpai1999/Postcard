@@ -29,7 +29,6 @@ import {ToolbarModule} from 'primeng/toolbar';
     PostComponent,
     PostFremeComponent,
     FooterComponent,
-    AccordionModule,
   ],
   imports: [
     BrowserModule,
