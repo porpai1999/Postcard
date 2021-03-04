@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "Postcard"
+  "defaultProject": "Postcard",
+  "cli": {
+    "analytics": "24ed78a3-94d4-45b2-ab7b-05bfdf299abf"
+  }
 }
