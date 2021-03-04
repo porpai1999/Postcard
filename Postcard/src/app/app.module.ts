@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HeaderComponent } from './header/header.component';
 import { FootterComponent } from './footter/footter.component';
+import { PostComponent } from './post/post.component';
+import { PostFremeComponent } from './post-freme/post-freme.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FootterComponent } from './footter/footter.component';
     HomeComponent,
     ProfileComponent,
     HeaderComponent,
-    FootterComponent
+    FootterComponent,
+    PostComponent,
+    PostFremeComponent
   ],
   imports: [
     BrowserModule,
