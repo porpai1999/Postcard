@@ -15,6 +15,8 @@ import { PostFrameComponent } from './post-frame/post-frame.component';
 import { FooterComponent } from './footer/footer.component';
 import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
 import {MenuItem} from 'primeng/api'; 
+import {ToolbarModule} from 'primeng/toolbar';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,9 @@ import {MenuItem} from 'primeng/api';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AccordionModule,
+    ToolbarModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
