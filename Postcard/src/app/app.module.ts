@@ -11,6 +11,8 @@ import { HeaderComponent } from './header/header.component';
 import { FootterComponent } from './footter/footter.component';
 import { PostComponent } from './post/post.component';
 import { PostFremeComponent } from './post-freme/post-freme.component';
+import { PostFrameComponent } from './post-frame/post-frame.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { PostFremeComponent } from './post-freme/post-freme.component';
     HeaderComponent,
     FootterComponent,
     PostComponent,
-    PostFremeComponent
+    PostFremeComponent,
+    PostFrameComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
