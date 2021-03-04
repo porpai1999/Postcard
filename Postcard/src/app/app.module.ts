@@ -31,12 +31,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     PostFremeComponent,
     PostFrameComponent,
     FooterComponent,
-    AccordionModule
+    //AccordionModule
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AccordionModule,
+    //AccordionModule,
     ToolbarModule,
     NgbModule
   ],
