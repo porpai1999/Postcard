@@ -13,6 +13,7 @@ import { PostComponent } from './post/post.component';
 import { PostFremeComponent } from './post-freme/post-freme.component';
 import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
 import {MenuItem} from 'primeng/api'; 
+import {ToolbarModule} from 'primeng/toolbar';
 
 @NgModule({
   declarations: [
@@ -25,11 +26,12 @@ import {MenuItem} from 'primeng/api';
     FootterComponent,
     PostComponent,
     PostFremeComponent,
-    AccordionModule,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AccordionModule,
+    ToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
