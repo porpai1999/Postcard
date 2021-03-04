@@ -11,6 +11,8 @@ import { HeaderComponent } from './header/header.component';
 import { FootterComponent } from './footter/footter.component';
 import { PostComponent } from './post/post.component';
 import { PostFremeComponent } from './post-freme/post-freme.component';
+import { PostFrameComponent } from './post-frame/post-frame.component';
+import { FooterComponent } from './footer/footer.component';
 import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
 import {MenuItem} from 'primeng/api'; 
 import {ToolbarModule} from 'primeng/toolbar';
@@ -26,6 +28,8 @@ import {ToolbarModule} from 'primeng/toolbar';
     FootterComponent,
     PostComponent,
     PostFremeComponent,
+    FooterComponent,
+    AccordionModule,
   ],
   imports: [
     BrowserModule,
