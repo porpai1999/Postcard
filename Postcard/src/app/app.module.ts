@@ -27,12 +27,9 @@ import {MenuItem} from 'primeng/api';
     FootterComponent,
     PostComponent,
     PostFremeComponent,
-<<<<<<< HEAD
     PostFrameComponent,
-    FooterComponent
-=======
-    AccordionModule,
->>>>>>> 5580cb65124164967169f64def668c7015e2e049
+    FooterComponent,
+    AccordionModule
   ],
   imports: [
     BrowserModule,
